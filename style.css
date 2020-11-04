@@ -1,0 +1,55 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:black;
+}
+.listContainer{
+    display: flex;
+    margin: 1em auto;
+    line-height: 1.5em;
+    background-color: lightgrey;
+    max-width: 40%;
+    /* padding-inline-start: 30px; */
+}
+
+ul li{
+    margin-left: 30px;
+    /* padding-inline-start: 40px; */
+  
+
+}
+
+ul > li {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul > li:nth-child(even){
+    background-color: lightpink;
+
+}
+
+ul > li:nth-child(odd){
+    background-color: lightgreen;
+
+}
+
+
+ol {
+    /* color: black;  OM MAN VILL ATT TEXTFÄRGEN I OL- LI ELEMENTEN INTE SKA FÅ SAMMA SOM UL-ELEMENTEN*/
+    background-color: lightgray;
+}
+
+ol > li:nth-child(odd){
+    background-color: mediumaquamarine;
+}
+
+ol > li:nth-child(even){
+    background-color: lightyellow;
+}
